@@ -30,7 +30,7 @@ public class App {
         System.out.print("\nOpção: Instruções\n");
         System.out.print("\nO jogo se trata de um quiz sobre os 4 principais times \n");
         System.out.print("\nSelecione o modo de jogo História dos times ou Clássicos e responda as perguntas \n");
-        System.out.print("\nSão 7 perguntas sobre a História dos Times e 5 dos Clássicos \n");
+        System.out.print("\nSão 7 perguntas sobre a História dos Times e 3 dos Clássicos \n");
         System.out.print("\nSelecione as alternativas \n");
         System.out.print("\nAlternativas corretas valem pontos 10 pts \n");
         System.out.print("\nAs erradas valem 0 pts \n");
@@ -75,17 +75,18 @@ public class App {
             switch(times){
                 case 1:
                 System.out.println("\nVocê escolheu o Corinthians\n");
-                System.out.println("\nPergunta 1\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\nO Corinthians completou 100 anos em qual ano?\n");
+                System.out.println("\n[1] 2009");
+                System.out.println("\n[2] 2010");
+                System.out.println("\n[3] 2011");
+                System.out.println("\n[4] 2012");
+                System.out.println("\n[5] 2008\n");
                 resp1 = entrada.nextInt();
 
-                if(resp1 == 4){
+                if(resp1 == 2){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\nO Corinthians fez 100 anos em 2010");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -93,17 +94,18 @@ public class App {
                     pts1 = pts1 + 0;
                 }
                 
-                System.out.println("\nPergunta 2\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\nQual foi o placar do 2º jogo pela Copa do Brasil, em 2009, que deu a taça ao Corinthians?\n");
+                System.out.println("\n[1] 1 x 2");
+                System.out.println("\n[2] 1 x 1");
+                System.out.println("\n[3] 3 x 2");
+                System.out.println("\n[4] 2 x 1");
+                System.out.println("\n[5] 2 x 2");
                 resp1 = entrada.nextInt();
-
-                if(resp1 == 4){
+                
+                if(resp1 == 5){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\nINTERNACIONAL 2X2 CORINTHIANS\n");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -111,17 +113,18 @@ public class App {
                     pts1 = pts1 + 0;
                 }
                 
-                System.out.println("\nPergunta 3\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\nQuem foi o artilheiro do Corinthians na campanha campeã na Copa Libertadores de 2012?\n");
+                System.out.println("\n[1] Emerson Sheik");
+                System.out.println("\n[2] Paulinho");
+                System.out.println("\n[3] Alex");
+                System.out.println("\n[4] Jorge Henrique");
+                System.out.println("\n[5] Guerrero");
                 resp1 = entrada.nextInt();
-
-                if(resp1 == 4){
+                
+                if(resp1 == 1){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\nEmerson Sheik foi o artilheiro com 5 gols");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -129,17 +132,18 @@ public class App {
                     pts1 = pts1 + 0;
                 }
                 
-                System.out.println("\nPergunta 4\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\nO Corinthians foi fundado por um grupo de _____ ?\n");
+                System.out.println("\n[1] Dentistas");
+                System.out.println("\n[2] Moradores do centro de São Paulo");
+                System.out.println("\n[3] Operários");
+                System.out.println("\n[4] Comerciantes");
+                System.out.println("\n[5] Fazendeiros\n");
                 resp1 = entrada.nextInt();
-
-                if(resp1 == 4){
+                
+                if(resp1 == 3){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\no Corinthians foi fundado por operários");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -147,17 +151,18 @@ public class App {
                     pts1 = pts1 + 0;
                 }
                 
-                System.out.println("\nPergunta 5\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\nQual o nome do jogador corinthiano conhecido como Doutor?\n");
+                System.out.println("\n[1] Rivelino");
+                System.out.println("\n[2] Sócrates");
+                System.out.println("\n[3] Marcelinho Carioca");
+                System.out.println("\n[4] Neto");
+                System.out.println("\n[5] Vampeta\n");
                 resp1 = entrada.nextInt();
 
-                if(resp1 == 4){
+                if(resp1 == 2){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("Sócrates se formou em medicina na USP, por isso o apelido");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -165,34 +170,36 @@ public class App {
                     pts1 = pts1 + 0;
                 }
                 
-                System.out.println("\nPergunta 6\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\nEm qual ano o Corinthians ganhou seu primeiro troféu em uma competição oficial?\n");
+                System.out.println("\n[1] 1910 - Campeonato Paulista");
+                System.out.println("\n[2] 1990 - Campeonato Brasileiro");
+                System.out.println("\n[3] 1962 - Libertadores");
+                System.out.println("\n[4] 1914 - Campeonato Paulista");
+                System.out.println("\n[5] 1978 - Campeonato Brasileiro\n");
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("O título foi conquistado em 1914 de forma invicta");
                     pts1 = pts1 + 10;
                 }
                 else{
                     System.out.println(nome+", você errou");
                     pts1 = pts1 + 0;
                 }
-                System.out.println("\nPergunta 7\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\nO Corinthians é o maior campeão Paulista com o total de :\n");
+                System.out.println("\n[1] 28");
+                System.out.println("\n[2] 31");
+                System.out.println("\n[3] 27");
+                System.out.println("\n[4] 30");
+                System.out.println("\n[5] 29\n");
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("O 30º e último título paulista do Corinthians foi conquistado em 2019 em cima do São Paulo");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -219,16 +226,17 @@ public class App {
                 case 2:
                 System.out.println("\nVocê escolheu o Palmeiras\n");
                 System.out.println("\nPergunta 1\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\n[1] ");
+                System.out.println("\n[2] ");
+                System.out.println("\n[3] ");
+                System.out.println("\n[4] ");
+                System.out.println("\n[5] \n");
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\n");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -237,11 +245,11 @@ public class App {
                 }
                 
                 System.out.println("\nPergunta 2\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\n[1] ");
+                System.out.println("\n[2] ");
+                System.out.println("\n[3] ");
+                System.out.println("\n[4] ");
+                System.out.println("\n[5] \n");
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
@@ -251,20 +259,22 @@ public class App {
                 }
                 else{
                     System.out.println(nome+", você errou");
+                    System.out.println("\n");
                     pts1 = pts1 + 0;
                 }
                 
                 System.out.println("\nPergunta 3\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\n[1] ");
+                System.out.println("\n[2] ");
+                System.out.println("\n[3] ");
+                System.out.println("\n[4] ");
+                System.out.println("\n[5] \n");
                 resp1 = entrada.nextInt();
-
+                
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\n");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -273,16 +283,17 @@ public class App {
                 }
                 
                 System.out.println("\nPergunta 4\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\n[1] ");
+                System.out.println("\n[2] ");
+                System.out.println("\n[3] ");
+                System.out.println("\n[4] ");
+                System.out.println("\n[5] \n");
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\n");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -291,16 +302,17 @@ public class App {
                 }
                 
                 System.out.println("\nPergunta 5\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\n[1] ");
+                System.out.println("\n[2] ");
+                System.out.println("\n[3] ");
+                System.out.println("\n[4] ");
+                System.out.println("\n[5] \n");
                 resp1 = entrada.nextInt();
-
+                
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\n");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -309,16 +321,17 @@ public class App {
                 }
                 
                 System.out.println("\nPergunta 6\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\n[1] ");
+                System.out.println("\n[2] ");
+                System.out.println("\n[3] ");
+                System.out.println("\n[4] ");
+                System.out.println("\n[5] \n");
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\n");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -326,16 +339,17 @@ public class App {
                     pts1 = pts1 + 0;
                 }
                 System.out.println("\nPergunta 7\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\n[1] ");
+                System.out.println("\n[2] ");
+                System.out.println("\n[3] ");
+                System.out.println("\n[4] ");
+                System.out.println("\n[5] \n");
                 resp1 = entrada.nextInt();
-
+                
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\n");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -358,17 +372,16 @@ public class App {
                     }
                 }
                 break;
-
+                
                 case 3:
                 System.out.println("\nVocê escolheu o Santos\n");
-                System.out.println("\nPergunta 1\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\n[1] ");
+                System.out.println("\n[2] ");
+                System.out.println("\n[3] ");
+                System.out.println("\n[4] ");
+                System.out.println("\n[5] \n");
                 resp1 = entrada.nextInt();
-
+                
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
@@ -380,16 +393,17 @@ public class App {
                 }
                 
                 System.out.println("\nPergunta 2\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\n[1] ");
+                System.out.println("\n[2] ");
+                System.out.println("\n[3] ");
+                System.out.println("\n[4] ");
+                System.out.println("\n[5] \n");
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\n");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -398,16 +412,17 @@ public class App {
                 }
                 
                 System.out.println("\nPergunta 3\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\n[1] ");
+                System.out.println("\n[2] ");
+                System.out.println("\n[3] ");
+                System.out.println("\n[4] ");
+                System.out.println("\n[5] \n");
                 resp1 = entrada.nextInt();
-
+                
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\n");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -416,16 +431,17 @@ public class App {
                 }
                 
                 System.out.println("\nPergunta 4\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\n[1] ");
+                System.out.println("\n[2] ");
+                System.out.println("\n[3] ");
+                System.out.println("\n[4] ");
+                System.out.println("\n[5] \n");
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\n");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -434,16 +450,17 @@ public class App {
                 }
                 
                 System.out.println("\nPergunta 5\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\n[1] ");
+                System.out.println("\n[2] ");
+                System.out.println("\n[3] ");
+                System.out.println("\n[4] ");
+                System.out.println("\n[5] \n");
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\n");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -452,16 +469,17 @@ public class App {
                 }
                 
                 System.out.println("\nPergunta 6\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\n[1] ");
+                System.out.println("\n[2] ");
+                System.out.println("\n[3] ");
+                System.out.println("\n[4] ");
+                System.out.println("\n[5] \n");
                 resp1 = entrada.nextInt();
-
+                
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\n");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -469,16 +487,17 @@ public class App {
                     pts1 = pts1 + 0;
                 }
                 System.out.println("\nPergunta 7\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\n[1] ");
+                System.out.println("\n[2] ");
+                System.out.println("\n[3] ");
+                System.out.println("\n[4] ");
+                System.out.println("\n[5] \n");
                 resp1 = entrada.nextInt();
-
+                
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\n");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -506,16 +525,17 @@ public class App {
                 case 4:
                 System.out.println("\nVocê escolheu o São Paulo\n");
                 System.out.println("\nPergunta 1\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\n[1] ");
+                System.out.println("\n[2] ");
+                System.out.println("\n[3] ");
+                System.out.println("\n[4] ");
+                System.out.println("\n[5] \n");
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\n");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -524,16 +544,17 @@ public class App {
                 }
                 
                 System.out.println("\nPergunta 2\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\n[1] ");
+                System.out.println("\n[2] ");
+                System.out.println("\n[3] ");
+                System.out.println("\n[4] ");
+                System.out.println("\n[5] \n");
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\n");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -542,16 +563,17 @@ public class App {
                 }
                 
                 System.out.println("\nPergunta 3\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\n[1] ");
+                System.out.println("\n[2] ");
+                System.out.println("\n[3] ");
+                System.out.println("\n[4] ");
+                System.out.println("\n[5] \n");
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\n");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -560,16 +582,17 @@ public class App {
                 }
                 
                 System.out.println("\nPergunta 4\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\n[1] ");
+                System.out.println("\n[2] ");
+                System.out.println("\n[3] ");
+                System.out.println("\n[4] ");
+                System.out.println("\n[5] \n");
                 resp1 = entrada.nextInt();
-
+                
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\n");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -578,16 +601,17 @@ public class App {
                 }
                 
                 System.out.println("\nPergunta 5\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\n[1] ");
+                System.out.println("\n[2] ");
+                System.out.println("\n[3] ");
+                System.out.println("\n[4] ");
+                System.out.println("\n[5] \n");
                 resp1 = entrada.nextInt();
-
+                
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\n");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -596,16 +620,17 @@ public class App {
                 }
                 
                 System.out.println("\nPergunta 6\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\n[1] ");
+                System.out.println("\n[2] ");
+                System.out.println("\n[3] ");
+                System.out.println("\n[4] ");
+                System.out.println("\n[5] \n");
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\n");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -613,16 +638,17 @@ public class App {
                     pts1 = pts1 + 0;
                 }
                 System.out.println("\nPergunta 7\n");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa");
-                System.out.println("\nAlternativa\n");
+                System.out.println("\n[1] ");
+                System.out.println("\n[2] ");
+                System.out.println("\n[3] ");
+                System.out.println("\n[4] ");
+                System.out.println("\n[5] \n");
                 resp1 = entrada.nextInt();
-
+                
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\n");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -650,47 +676,286 @@ public class App {
             }
             break;
 
-            // // Clássicos
-            //     case 2:
-            //     int clássicos = 0;
-            //     System.out.print("\n Clássicos\n");
-            //     System.out.print("\n Escolha um dos quatro grandes\n");
-            //     System.out.print("\n [1] Clássico Alvinegro\n");
-            //     System.out.print("\n [2] Clássico da Saudade\n");
-            //     System.out.print("\n [3] Choque-Rei\n");
-            //     System.out.print("\n [4] Derby Paulista\n");
-            //     System.out.print("\n [5] Majestoso\n");
-            //     System.out.print("\n [6] Sansão\n");
-            //     clássicos = entrada.nextInt();
+            // Clássicos
+                case 2:
+                int clássicos = 0;
+                System.out.print("\n Clássicos\n");
+                System.out.print("\n Escolha um dos quatro grandes\n");
+                System.out.print("\n [1] Clássico Alvinegro\n");
+                System.out.print("\n [2] Clássico da Saudade\n");
+                System.out.print("\n [3] Choque-Rei\n");
+                System.out.print("\n [4] Derby Paulista\n");
+                System.out.print("\n [5] Majestoso\n");
+                System.out.print("\n [6] Sansão\n");
+                clássicos = entrada.nextInt();
                 
-            //     // Switch case e break para os clássicosq
-            //     switch (clássicos){
-            //         case 1:
-            //         System.out.print("\nClássico Alvinegro\n");
-                    
-            //         break;
-            //         case 2:
-            //         System.out.print("\nClássico da Saudade\n");
-                    
-            //         break;
-            //         case 3:
-            //         System.out.print("\nChoque-Rei\n");
-                    
-            //         break;
-            //         case 4:
-            //         System.out.print("\nDerby Paulista\n");
-                    
-            //         break;
-            //         case 5:
-            //         System.out.print("\nMajestoso\n");
-                    
-            //         break;
-            //         case 6:
-            //         System.out.print("\nSansão\n");
-                    
-            //         break;
-            //     }
-            //     break;
+                // Switch case e break para os clássicosq
+                switch (clássicos){
+                    case 1:
+                    System.out.print("\nClássico Alvinegro\n");
+            System.out.println("\nPergunta 1\n");
+            System.out.println("\n[1] ");
+            System.out.println("\n[2] "); 
+              resp2 = entrada.nextInt();
+            if(resp2 == 1){
+                // valor da resposta ilustrativo, será alterado conforme a alternativa
+                System.out.println(nome+", você acertou");
+                pts2 = pts2 + 10;
+            }
+            else{
+                System.out.println(nome+", você errou");
+                pts2 = pts2 + 0;
+            }
+            System.out.println("\nPergunta 2\n");
+            System.out.println("\n[1] ");
+            System.out.println("\n[2] ");
+            resp2 = entrada.nextInt();
+            if(resp2 == 1){
+                // valor da resposta ilustrativo, será alterado conforme a alternativa
+                System.out.println(nome+", você acertou");
+                pts2 = pts2 + 10;
+            }
+            else{
+                System.out.println(nome+", você errou");
+                pts2 = pts2 + 0;
+            }
+            System.out.println("\nPergunta 3\n");
+            System.out.println("\n[1] ");
+            System.out.println("\n[2] ");
+             resp2 = entrada.nextInt();
+            if(resp2 == 1){
+                // valor da resposta ilustrativo, será alterado conforme a alternativa
+                System.out.println(nome+", você acertou");
+                pts2 = pts2 + 10;
+            }
+            else{
+                System.out.println(nome+", você errou");
+                pts2 = pts2 + 0;
+            }
+            System.out.println("\nSua pontuação foi de \n"+pts2);
+            
+                    break;
+                    case 2:
+                    System.out.print("\nClássico da Saudade\n");
+            System.out.println("\nPergunta 1\n");
+            System.out.println("\n[1] ");
+            System.out.println("\n[2] "); 
+             resp2 = entrada.nextInt();
+            if(resp2 == 1){
+                // valor da resposta ilustrativo, será alterado conforme a alternativa
+                System.out.println(nome+", você acertou");
+                pts2 = pts2 + 10;
+            }
+            else{
+                System.out.println(nome+", você errou");
+                pts2 = pts2 + 0;
+            }
+            System.out.println("\nPergunta 2\n");
+            System.out.println("\n[1] ");
+            System.out.println("\n[2] ");  
+             resp2 = entrada.nextInt();
+            if(resp2 == 1){
+                // valor da resposta ilustrativo, será alterado conforme a alternativa
+                System.out.println(nome+", você acertou");
+                pts2 = pts2 + 10;
+            }
+            else{
+                System.out.println(nome+", você errou");
+                pts2 = pts2 + 0;
+            }
+            System.out.println("\nPergunta 3\n");
+            System.out.println("\n[1] ");
+            System.out.println("\n[2] ");           
+            if(resp2 == 1){
+                // valor da resposta ilustrativo, será alterado conforme a alternativa
+                System.out.println(nome+", você acertou");
+                pts2 = pts2 + 10;
+            }
+            else{
+                System.out.println(nome+", você errou");
+                pts2 = pts2 + 0;
+            }
+            System.out.println("\nSua pontuação foi de \n"+pts2);
+            
+                    break;
+                    case 3:
+                    System.out.print("\nChoque-Rei\n");
+            System.out.println("\nPergunta 1\n");
+            System.out.println("\n[1] ");
+            System.out.println("\n[2] "); 
+             resp2 = entrada.nextInt();
+            if(resp2 == 1){
+                // valor da resposta ilustrativo, será alterado conforme a alternativa
+                System.out.println(nome+", você acertou");
+                pts2 = pts2 + 10;
+            }
+            else{
+                System.out.println(nome+", você errou");
+                pts2 = pts2 + 0;
+            }
+            System.out.println("\nPergunta 2\n");
+            System.out.println("\n[1] ");
+            System.out.println("\n[2] "); 
+             resp2 = entrada.nextInt();
+            if(resp2 == 1){
+                // valor da resposta ilustrativo, será alterado conforme a alternativa
+                System.out.println(nome+", você acertou");
+                pts2 = pts2 + 10;
+            }
+            else{
+                System.out.println(nome+", você errou");
+                pts2 = pts2 + 0;
+            }
+            System.out.println("\nPergunta 3\n");
+            System.out.println("\n[1] ");
+            System.out.println("\n[2] ");           
+             resp2 = entrada.nextInt();
+            if(resp2 == 1){
+                // valor da resposta ilustrativo, será alterado conforme a alternativa
+                System.out.println(nome+", você acertou");
+                pts2 = pts2 + 10;
+            }
+            else{
+                System.out.println(nome+", você errou");
+                pts2 = pts2 + 0;
+            }
+            System.out.println("\nSua pontuação foi de \n"+pts2);
+            
+                    break;
+                    case 4:
+                    System.out.print("\nDerby Paulista\n");
+            System.out.println("\nPergunta 1\n");
+            System.out.println("\n[1] ");
+            System.out.println("\n[2] ");   
+             resp2 = entrada.nextInt();
+            if(resp2 == 1){
+                // valor da resposta ilustrativo, será alterado conforme a alternativa
+                System.out.println(nome+", você acertou");
+                pts2 = pts2 + 10;
+            }
+            else{
+                System.out.println(nome+", você errou");
+                pts2 = pts2 + 0;
+            }
+            System.out.println("\nPergunta 2\n");
+            System.out.println("\n[1] ");
+            System.out.println("\n[2] ");   
+             resp2 = entrada.nextInt();
+            if(resp2 == 1){
+                // valor da resposta ilustrativo, será alterado conforme a alternativa
+                System.out.println(nome+", você acertou");
+                pts2 = pts2 + 10;
+            }
+            else{
+                System.out.println(nome+", você errou");
+                pts2 = pts2 + 0;
+            }
+            System.out.println("\nPergunta 3\n");
+            System.out.println("\n[1] ");
+            System.out.println("\n[2] ");           
+             resp2 = entrada.nextInt();
+            if(resp2 == 1){
+                // valor da resposta ilustrativo, será alterado conforme a alternativa
+                System.out.println(nome+", você acertou");
+                pts2 = pts2 + 10;
+            }
+            else{
+                System.out.println(nome+", você errou");
+                pts2 = pts2 + 0;
+            }
+            System.out.println("\nSua pontuação foi de \n"+pts2);
+            
+                    break;
+                    case 5:
+                    System.out.print("\nMajestoso\n");
+            System.out.println("\nPergunta 1\n");
+            System.out.println("\n[1] ");
+            System.out.println("\n[2] "); 
+            resp2 = entrada.nextInt();
+            if(resp2 == 1){
+                // valor da resposta ilustrativo, será alterado conforme a alternativa
+                System.out.println(nome+", você acertou");
+                pts2 = pts2 + 10;
+            }
+            else{
+                System.out.println(nome+", você errou");
+                pts2 = pts2 + 0;
+            }
+            System.out.println("\nPergunta 2\n");
+            System.out.println("\n[1] ");
+            System.out.println("\n[2] "); 
+             resp2 = entrada.nextInt();
+            if(resp2 == 1){
+                // valor da resposta ilustrativo, será alterado conforme a alternativa
+                System.out.println(nome+", você acertou");
+                pts2 = pts2 + 10;
+            }
+            else{
+                System.out.println(nome+", você errou");
+                pts2 = pts2 + 0;
+            }
+            System.out.println("\nPergunta 3\n");
+            System.out.println("\n[1] ");
+            System.out.println("\n[2] "); 
+             resp2 = entrada.nextInt();
+            if(resp2 == 1){
+                // valor da resposta ilustrativo, será alterado conforme a alternativa
+                System.out.println(nome+", você acertou");
+                pts2 = pts2 + 10;
+            }
+            else{
+                System.out.println(nome+", você errou");
+                pts2 = pts2 + 0;
+            }
+            System.out.println("\nSua pontuação foi de \n"+pts2);
+            
+                    break;
+                    case 6:
+                    System.out.print("\nSansão\n");
+            System.out.println("\nPergunta 1\n");
+            System.out.println("\n[1] ");
+            System.out.println("\n[2] "); 
+             resp2 = entrada.nextInt();
+            if(resp2 == 1){
+                // valor da resposta ilustrativo, será alterado conforme a alternativa
+                System.out.println(nome+", você acertou");
+                pts2 = pts2 + 10;
+            }
+            else{
+                System.out.println(nome+", você errou");
+                pts2 = pts2 + 0;
+            }
+            System.out.println("\nPergunta 2\n");
+            System.out.println("\n[1] ");
+            System.out.println("\n[2] "); 
+             resp2 = entrada.nextInt();
+            if(resp2 == 1){
+                // valor da resposta ilustrativo, será alterado conforme a alternativa
+                System.out.println(nome+", você acertou");
+                pts2 = pts2 + 10;
+            }
+            else{
+                System.out.println(nome+", você errou");
+                pts2 = pts2 + 0;
+            }
+            System.out.println("\nPergunta 3\n");
+            System.out.println("\n[1] ");
+            System.out.println("\n[2] ");  
+             resp2 = entrada.nextInt();
+            if(resp2 == 1){
+                // valor da resposta ilustrativo, será alterado conforme a alternativa
+                System.out.println(nome+", você acertou");
+                pts2 = pts2 + 10;
+            }
+            else{
+                System.out.println(nome+", você errou");
+                pts2 = pts2 + 0;
+            }
+            System.out.println("\nSua pontuação foi de \n"+pts2);
+
+                    break;
+                }
+                break;
 
             
         }
