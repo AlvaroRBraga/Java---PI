@@ -225,18 +225,18 @@ public class App {
 
                 case 2:
                 System.out.println("\nVocê escolheu o Palmeiras\n");
-                System.out.println("\nPergunta 1\n");
-                System.out.println("\n[1] ");
-                System.out.println("\n[2] ");
-                System.out.println("\n[3] ");
-                System.out.println("\n[4] ");
-                System.out.println("\n[5] \n");
+                System.out.println("\nO Palmeiras antes era chamado de Palestra Itália, e teve que mudar seu nome. Qual foi o ano dessa mudança?\n");
+                System.out.println("\n[1] 1939");
+                System.out.println("\n[2] 1940");
+                System.out.println("\n[3] 1941");
+                System.out.println("\n[4] 1942");
+                System.out.println("\n[5] 1927\n");
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
-                    System.out.println("\n");
+                    System.out.println("\nPor conta do período de Guerra Mundial na Europa, o nome Palestra Itália teve que ser substituido");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -244,112 +244,113 @@ public class App {
                     pts1 = pts1 + 0;
                 }
                 
-                System.out.println("\nPergunta 2\n");
-                System.out.println("\n[1] ");
-                System.out.println("\n[2] ");
-                System.out.println("\n[3] ");
-                System.out.println("\n[4] ");
-                System.out.println("\n[5] \n");
+                System.out.println("\nO Palmeiras participou de 6 finais de Libertadores mas ganhou 3. Os times que o Palmeiras bateu na final foram:\n");
+                System.out.println("\n[1] Deportivo Cali, Santos e Flamengo");
+                System.out.println("\n[2] Boca Juniors, Santos e Flamengo");
+                System.out.println("\n[3] River Plate, Santos e Flamengo");
+                System.out.println("\n[4] América de Cali, Santos e Flamengo");
+                System.out.println("\n[5] Olimpia, Santos e Flamengo\n");
+                resp1 = entrada.nextInt();
+
+                if(resp1 == 1){
+                    // valor da resposta ilustrativo, será alterado conforme a alternativa
+                    System.out.println(nome+", você acertou");
+                    System.out.println("Deportivo Cali em 1999 em pleno Parque Antártica, Santos em 2020 em pleno Maracanã e Flamengo em 2021");
+                    pts1 = pts1 + 10;
+                }
+                else{
+                    System.out.println(nome+", você errou");
+                    System.out.println("\n");
+                    pts1 = pts1 + 0;
+                }
+                
+                System.out.println("\nQuais são os mascotes do Palmeiras?\n");
+                System.out.println("\n[1] Porco e Papagaio");
+                System.out.println("\n[2] Porco e Flamingo");
+                System.out.println("\n[3] Periquito e Porco");
+                System.out.println("\n[4] Periquito e Papagaio");
+                System.out.println("\n[5] Baleia e Urubu\n");
+                resp1 = entrada.nextInt();
+                
+                if(resp1 == 3){
+                    // valor da resposta ilustrativo, será alterado conforme a alternativa
+                    System.out.println(nome+", você acertou");
+                    System.out.println("\n O primeiro mascote foi o Periquito, e adoção do porco veio após campanha de marketing na década de 80 por João Roberto Gobbato");
+                    pts1 = pts1 + 10;
+                }
+                else{
+                    System.out.println(nome+", você errou");
+                    pts1 = pts1 + 0;
+                }
+                
+                System.out.println("\nOs técnicos que tiveram mais títulos sob comando do clube foram:\n");
+                System.out.println("\n[1] Felipão, Luxemburgo e Abel Ferreira");
+                System.out.println("\n[2] Humberto Cabelli, Luxemburgo e Abel Ferreira");
+                System.out.println("\n[3] Humberto Cabelli, Felipão e Cuca");
+                System.out.println("\n[4] Oswaldo Brandão, Luxemburgo e Abel Ferreira");
+                System.out.println("\n[5] Oswaldo Brandão, Luxemburgo e Ventura Cambon\n");
+                resp1 = entrada.nextInt();
+
+                if(resp1 == 5){
+                    // valor da resposta ilustrativo, será alterado conforme a alternativa
+                    System.out.println(nome+", você acertou");
+                    System.out.println("\nOswaldo com 10, Luxemburgo com 8 e Cambon com 7");
+                    pts1 = pts1 + 10;
+                }
+                else{
+                    System.out.println(nome+", você errou");
+                    pts1 = pts1 + 0;
+                }
+                
+                System.out.println("\nA era mais vitoriosa do Palmeiras é a era:\n");
+                System.out.println("\n[1] Parmalat");
+                System.out.println("\n[2] Academia de 60");
+                System.out.println("\n[3] Academia de 70");
+                System.out.println("\n[4] Crefisa");
+                System.out.println("\n[5] FIAT\n");
+                resp1 = entrada.nextInt();
+                
+                if(resp1 == 1){
+                    // valor da resposta ilustrativo, será alterado conforme a alternativa
+                    System.out.println(nome+", você acertou");
+                    System.out.println("\nA era Parmalat trouxe 11 títulos seguido da Crefisa (até o momento) com 10 títulos conquistados");
+                    pts1 = pts1 + 10;
+                }
+                else{
+                    System.out.println(nome+", você errou");
+                    pts1 = pts1 + 0;
+                }
+                
+                System.out.println("\nQual é o maior ídolo (estatísticas em consideração) do Palmeiras no século XXI e está entre os 5 de todos os tempos? \n");
+                System.out.println("\n[1] Gustavo Gómez");
+                System.out.println("\n[2] Valdívia");
+                System.out.println("\n[3] Dudu");
+                System.out.println("\n[4] Marcos");
+                System.out.println("\n[5] Fernando Prass\n");
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
-                    pts1 = pts1 + 10;
-                }
-                else{
-                    System.out.println(nome+", você errou");
-                    System.out.println("\n");
-                    pts1 = pts1 + 0;
-                }
-                
-                System.out.println("\nPergunta 3\n");
-                System.out.println("\n[1] ");
-                System.out.println("\n[2] ");
-                System.out.println("\n[3] ");
-                System.out.println("\n[4] ");
-                System.out.println("\n[5] \n");
-                resp1 = entrada.nextInt();
-                
-                if(resp1 == 4){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
-                    System.out.println(nome+", você acertou");
-                    System.out.println("\n");
+                    System.out.println("\nDudu é o ídolo com a maior marca de gols, assistências, vitórias, partidas realizadas e títulos conquistados no século 21 e na lista de todos os tempos");
                     pts1 = pts1 + 10;
                 }
                 else{
                     System.out.println(nome+", você errou");
                     pts1 = pts1 + 0;
                 }
-                
-                System.out.println("\nPergunta 4\n");
-                System.out.println("\n[1] ");
-                System.out.println("\n[2] ");
-                System.out.println("\n[3] ");
-                System.out.println("\n[4] ");
-                System.out.println("\n[5] \n");
-                resp1 = entrada.nextInt();
-
-                if(resp1 == 4){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
-                    System.out.println(nome+", você acertou");
-                    System.out.println("\n");
-                    pts1 = pts1 + 10;
-                }
-                else{
-                    System.out.println(nome+", você errou");
-                    pts1 = pts1 + 0;
-                }
-                
-                System.out.println("\nPergunta 5\n");
-                System.out.println("\n[1] ");
-                System.out.println("\n[2] ");
-                System.out.println("\n[3] ");
-                System.out.println("\n[4] ");
-                System.out.println("\n[5] \n");
+                System.out.println("\nDe quem foram os gols do Palmeiras na vitória por 2 x 1 sobre o Flamengo na Libertadores de 2021?\n");
+                System.out.println("\n[1] Rony e Deyverson");
+                System.out.println("\n[2] Raphael Veiga e Deyverson");
+                System.out.println("\n[3] Gustavo Scarpa e Deyverson");
+                System.out.println("\n[4] Dudu e Deyverson");
+                System.out.println("\n[5] Breno Lopes e Deyverson\n");
                 resp1 = entrada.nextInt();
                 
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
-                    System.out.println("\n");
-                    pts1 = pts1 + 10;
-                }
-                else{
-                    System.out.println(nome+", você errou");
-                    pts1 = pts1 + 0;
-                }
-                
-                System.out.println("\nPergunta 6\n");
-                System.out.println("\n[1] ");
-                System.out.println("\n[2] ");
-                System.out.println("\n[3] ");
-                System.out.println("\n[4] ");
-                System.out.println("\n[5] \n");
-                resp1 = entrada.nextInt();
-
-                if(resp1 == 4){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
-                    System.out.println(nome+", você acertou");
-                    System.out.println("\n");
-                    pts1 = pts1 + 10;
-                }
-                else{
-                    System.out.println(nome+", você errou");
-                    pts1 = pts1 + 0;
-                }
-                System.out.println("\nPergunta 7\n");
-                System.out.println("\n[1] ");
-                System.out.println("\n[2] ");
-                System.out.println("\n[3] ");
-                System.out.println("\n[4] ");
-                System.out.println("\n[5] \n");
-                resp1 = entrada.nextInt();
-                
-                if(resp1 == 4){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
-                    System.out.println(nome+", você acertou");
-                    System.out.println("\n");
+                    System.out.println("\nApós falha de Andreas Pereira, Deyverson rouba a bola e marca o gol já na prorrogação da final");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -375,16 +376,18 @@ public class App {
                 
                 case 3:
                 System.out.println("\nVocê escolheu o Santos\n");
-                System.out.println("\n[1] ");
-                System.out.println("\n[2] ");
-                System.out.println("\n[3] ");
-                System.out.println("\n[4] ");
-                System.out.println("\n[5] \n");
+                System.out.println("\nQuantos títulos oficiais o Santos conquistou na década de 60, a década mais vitoriosa da história do clube?\n");
+                System.out.println("\n[1] 20");
+                System.out.println("\n[2] 21");
+                System.out.println("\n[3] 22");
+                System.out.println("\n[4] 23");
+                System.out.println("\n[5] 24\n");
                 resp1 = entrada.nextInt();
                 
-                if(resp1 == 4){
+                if(resp1 == 3){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
+                    System.out.println("\n22 títulos sendo eles 8 paulistas, 6 equivalentes ao brasileiro, 3 Rio-SP, 2 Libertadores, 1 Recopa e 2 Mundiais");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -392,18 +395,74 @@ public class App {
                     pts1 = pts1 + 0;
                 }
                 
-                System.out.println("\nPergunta 2\n");
-                System.out.println("\n[1] ");
-                System.out.println("\n[2] ");
-                System.out.println("\n[3] ");
-                System.out.println("\n[4] ");
-                System.out.println("\n[5] \n");
+                System.out.println("\nontra qual clube Pelé marcou seu primeiro gol com a camisa do Santos?\n");
+                System.out.println("\n[1] São Paulo");
+                System.out.println("\n[2] Ferroviária");
+                System.out.println("\n[3] Corinthians de Santo André");
+                System.out.println("\n[4] Portuguesa Santista");
+                System.out.println("\n[5] Bahia\n");
+                resp1 = entrada.nextInt();
+
+                if(resp1 == 3){
+                    // valor da resposta ilustrativo, será alterado conforme a alternativa
+                    System.out.println(nome+", você acertou");
+                    System.out.println("\nFoi contra o já extinto Corinthians de Santo André, Santos venceu por 7 a 1");
+                    pts1 = pts1 + 10;
+                }
+                else{
+                    System.out.println(nome+", você errou");
+                    pts1 = pts1 + 0;
+                }
+                
+                System.out.println("\nEm qual país e ano, no continente africano o Santos jogou e fez parar uma guerra?\n");
+                System.out.println("\n[1] Alemanha - 1943");
+                System.out.println("\n[2] Rep. Dem. do Congo - 1969");
+                System.out.println("\n[3] Egito - 1965");
+                System.out.println("\n[4] Vietnã - 1968");
+                System.out.println("\n[5] Angola - 1970\n");
+                resp1 = entrada.nextInt();
+                
+                if(resp1 == 2){
+                    System.out.println(nome+", você acertou");
+                    System.out.println("\nEm 1969, na atual Rep. Democrática do congo, parou a guerra entre Kinshasa e Brazzaville");
+                    pts1 = pts1 + 10;
+                }
+                else{
+                    System.out.println(nome+", você errou");
+                    pts1 = pts1 + 0;
+                }
+                
+                System.out.println("\nEm qual ano o Santos atingiu a marca de 10 mil gols marcados?\n");
+                System.out.println("\n[1] 2007");
+                System.out.println("\n[2] 1995");
+                System.out.println("\n[3] 2004");
+                System.out.println("\n[4] 2001");
+                System.out.println("\n[5] 1998\n");
+                resp1 = entrada.nextInt();
+
+                if(resp1 == 5){
+                    // valor da resposta ilustrativo, será alterado conforme a alternativa
+                    System.out.println(nome+", você acertou");
+                    System.out.println("\nEm 1998 o meia Jorginho marcou o gol 10 mil da história do clube");
+                    pts1 = pts1 + 10;
+                }
+                else{
+                    System.out.println(nome+", você errou");
+                    pts1 = pts1 + 0;
+                }
+                
+                System.out.println("\nQuais foram os anos dos 3 títulos da Libertadores que o Santos tem?\n");
+                System.out.println("\n[1] 1962, 1963 e 2011");
+                System.out.println("\n[2] 1961, 1962 e 2011");
+                System.out.println("\n[3] 1971, 1972 e 2010");
+                System.out.println("\n[4] 1975, 1976 e 2012");
+                System.out.println("\n[5] 1967, 1968 e 2011\n");
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
-                    System.out.println("\n");
+                    System.out.println("\nFoi campeão consecutivo em 1962 e 1963, o terceiro vindo em 2011");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -411,93 +470,36 @@ public class App {
                     pts1 = pts1 + 0;
                 }
                 
-                System.out.println("\nPergunta 3\n");
-                System.out.println("\n[1] ");
-                System.out.println("\n[2] ");
-                System.out.println("\n[3] ");
-                System.out.println("\n[4] ");
-                System.out.println("\n[5] \n");
+                System.out.println("\nEm qual ano foi construído o estádio emblemático da Vila Belmiro (Estádio Urbano Caldeira)?\n");
+                System.out.println("\n[1] 1913");
+                System.out.println("\n[2] 1914");
+                System.out.println("\n[3] 1915");
+                System.out.println("\n[4] 1916");
+                System.out.println("\n[5] 1917\n");
                 resp1 = entrada.nextInt();
                 
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
-                    System.out.println("\n");
+                    System.out.println("\nA construção do Estádio Urbano Caldeira, a Vila Belmiro, foi concluída em 1916 e sua inauguração ocorreu em 12 de outubro do mesmo ano\n");
                     pts1 = pts1 + 10;
                 }
                 else{
                     System.out.println(nome+", você errou");
                     pts1 = pts1 + 0;
                 }
-                
-                System.out.println("\nPergunta 4\n");
-                System.out.println("\n[1] ");
-                System.out.println("\n[2] ");
-                System.out.println("\n[3] ");
-                System.out.println("\n[4] ");
-                System.out.println("\n[5] \n");
-                resp1 = entrada.nextInt();
-
-                if(resp1 == 4){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
-                    System.out.println(nome+", você acertou");
-                    System.out.println("\n");
-                    pts1 = pts1 + 10;
-                }
-                else{
-                    System.out.println(nome+", você errou");
-                    pts1 = pts1 + 0;
-                }
-                
-                System.out.println("\nPergunta 5\n");
-                System.out.println("\n[1] ");
-                System.out.println("\n[2] ");
-                System.out.println("\n[3] ");
-                System.out.println("\n[4] ");
-                System.out.println("\n[5] \n");
-                resp1 = entrada.nextInt();
-
-                if(resp1 == 4){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
-                    System.out.println(nome+", você acertou");
-                    System.out.println("\n");
-                    pts1 = pts1 + 10;
-                }
-                else{
-                    System.out.println(nome+", você errou");
-                    pts1 = pts1 + 0;
-                }
-                
-                System.out.println("\nPergunta 6\n");
-                System.out.println("\n[1] ");
-                System.out.println("\n[2] ");
-                System.out.println("\n[3] ");
-                System.out.println("\n[4] ");
-                System.out.println("\n[5] \n");
+                System.out.println("\nQual foi o jogador do Santos que marcou mais gols em uma partida oficial?\n");
+                System.out.println("\n[1] Neymar");
+                System.out.println("\n[2] Coutinho");
+                System.out.println("\n[3] Diego Ribas");
+                System.out.println("\n[4] Pelé");
+                System.out.println("\n[5] Madson\n");
                 resp1 = entrada.nextInt();
                 
                 if(resp1 == 4){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
-                    System.out.println("\n");
-                    pts1 = pts1 + 10;
-                }
-                else{
-                    System.out.println(nome+", você errou");
-                    pts1 = pts1 + 0;
-                }
-                System.out.println("\nPergunta 7\n");
-                System.out.println("\n[1] ");
-                System.out.println("\n[2] ");
-                System.out.println("\n[3] ");
-                System.out.println("\n[4] ");
-                System.out.println("\n[5] \n");
-                resp1 = entrada.nextInt();
-                
-                if(resp1 == 4){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
-                    System.out.println(nome+", você acertou");
-                    System.out.println("\n");
+                    System.out.println("\nNuma partida contra o Botafogo de Ribeirão Preto, em 1964, Pelé marcou oito gols pelos Santos");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -686,16 +688,16 @@ public class App {
                 System.out.print("\n [3] Choque-Rei\n");
                 System.out.print("\n [4] Derby Paulista\n");
                 System.out.print("\n [5] Majestoso\n");
-                System.out.print("\n [6] Sansão\n");
+                System.out.print("\n [6] San-São\n");
                 clássicos = entrada.nextInt();
                 
                 // Switch case e break para os clássicosq
                 switch (clássicos){
                     case 1:
                     System.out.print("\nClássico Alvinegro\n");
-            System.out.println("\nPergunta 1\n");
-            System.out.println("\n[1] ");
-            System.out.println("\n[2] "); 
+            System.out.println("\nO clássico Alvinegro é o mais antigo de São Paulo.\n");
+            System.out.println("\n[1] Verdadeiro ");
+            System.out.println("\n[2] Falso"); 
               resp2 = entrada.nextInt();
             if(resp2 == 1){
                 // valor da resposta ilustrativo, será alterado conforme a alternativa
@@ -706,11 +708,11 @@ public class App {
                 System.out.println(nome+", você errou");
                 pts2 = pts2 + 0;
             }
-            System.out.println("\nPergunta 2\n");
-            System.out.println("\n[1] ");
-            System.out.println("\n[2] ");
+            System.out.println("\nQuem é o maior vencedor do clássico Alvinegro?\n");
+            System.out.println("\n[1] Santos");
+            System.out.println("\n[2] Corinthians");
             resp2 = entrada.nextInt();
-            if(resp2 == 1){
+            if(resp2 == 2){
                 // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
@@ -719,11 +721,11 @@ public class App {
                 System.out.println(nome+", você errou");
                 pts2 = pts2 + 0;
             }
-            System.out.println("\nPergunta 3\n");
-            System.out.println("\n[1] ");
-            System.out.println("\n[2] ");
+            System.out.println("\n O Santos tem menos títulos mundiais do que o Corinthians.\n");
+            System.out.println("\n[1] Verdadeiro");
+            System.out.println("\n[2] Falso");
              resp2 = entrada.nextInt();
-            if(resp2 == 1){
+            if(resp2 == 2){
                 // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
@@ -737,9 +739,9 @@ public class App {
                     break;
                     case 2:
                     System.out.print("\nClássico da Saudade\n");
-            System.out.println("\nPergunta 1\n");
-            System.out.println("\n[1] ");
-            System.out.println("\n[2] "); 
+            System.out.println("\nNa final da Libertadores disputada em 2020 entre Palmeiras e Santos, quem foi o campeão?\n");
+            System.out.println("\n[1] Palmeiras");
+            System.out.println("\n[2] Santos"); 
              resp2 = entrada.nextInt();
             if(resp2 == 1){
                 // valor da resposta ilustrativo, será alterado conforme a alternativa
@@ -750,11 +752,11 @@ public class App {
                 System.out.println(nome+", você errou");
                 pts2 = pts2 + 0;
             }
-            System.out.println("\nPergunta 2\n");
-            System.out.println("\n[1] ");
-            System.out.println("\n[2] ");  
+            System.out.println("\nQual o artilheiro do clássico da Saudade?\n");
+            System.out.println("\n[1] Edmundo - Palmeiras");
+            System.out.println("\n[2] Pelé - Santos");  
              resp2 = entrada.nextInt();
-            if(resp2 == 1){
+            if(resp2 == 2){
                 // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
@@ -763,9 +765,9 @@ public class App {
                 System.out.println(nome+", você errou");
                 pts2 = pts2 + 0;
             }
-            System.out.println("\nPergunta 3\n");
-            System.out.println("\n[1] ");
-            System.out.println("\n[2] ");           
+            System.out.println("\nO primeiro confronto na história teve um placar de 7 a 0. Quem saiu vencedor?\n");
+            System.out.println("\n[1] Santos");
+            System.out.println("\n[2] Palmeiras");           
             if(resp2 == 1){
                 // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
@@ -780,9 +782,9 @@ public class App {
                     break;
                     case 3:
                     System.out.print("\nChoque-Rei\n");
-            System.out.println("\nPergunta 1\n");
-            System.out.println("\n[1] ");
-            System.out.println("\n[2] "); 
+            System.out.println("\nNo confronto Choque-Rei, os dois times tem a mesma quantidade de vitorias?\n");
+            System.out.println("\n[1] Verdadeiro");
+            System.out.println("\n[2] Falso"); 
              resp2 = entrada.nextInt();
             if(resp2 == 1){
                 // valor da resposta ilustrativo, será alterado conforme a alternativa
@@ -793,9 +795,9 @@ public class App {
                 System.out.println(nome+", você errou");
                 pts2 = pts2 + 0;
             }
-            System.out.println("\nPergunta 2\n");
-            System.out.println("\n[1] ");
-            System.out.println("\n[2] "); 
+            System.out.println("\nO Palmeiras fez o São Paulo abandonar a partida por ter feito 3 a 1 no primeiro tempo\n");
+            System.out.println("\n[1] Verdadeiro ");
+            System.out.println("\n[2] Falso "); 
              resp2 = entrada.nextInt();
             if(resp2 == 1){
                 // valor da resposta ilustrativo, será alterado conforme a alternativa
@@ -806,11 +808,11 @@ public class App {
                 System.out.println(nome+", você errou");
                 pts2 = pts2 + 0;
             }
-            System.out.println("\nPergunta 3\n");
-            System.out.println("\n[1] ");
-            System.out.println("\n[2] ");           
+            System.out.println("\nQuem leva vantagem no duelo mata-mata\n");
+            System.out.println("\n[1] São Paulo ");
+            System.out.println("\n[2] Palmeiras ");           
              resp2 = entrada.nextInt();
-            if(resp2 == 1){
+            if(resp2 == 2){
                 // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
@@ -824,9 +826,9 @@ public class App {
                     break;
                     case 4:
                     System.out.print("\nDerby Paulista\n");
-            System.out.println("\nPergunta 1\n");
-            System.out.println("\n[1] ");
-            System.out.println("\n[2] ");   
+            System.out.println("\nQuem possui a vantagem de vitórias no Derby Paulista?\n");
+            System.out.println("\n[1] Palmeiras");
+            System.out.println("\n[2] Corinthians");   
              resp2 = entrada.nextInt();
             if(resp2 == 1){
                 // valor da resposta ilustrativo, será alterado conforme a alternativa
@@ -837,11 +839,11 @@ public class App {
                 System.out.println(nome+", você errou");
                 pts2 = pts2 + 0;
             }
-            System.out.println("\nPergunta 2\n");
-            System.out.println("\n[1] ");
-            System.out.println("\n[2] ");   
+            System.out.println("\nQual dos dois possui mais tradição em Libertadores?\n");
+            System.out.println("\n[1] Corinthians");
+            System.out.println("\n[2] Palmeiras");   
              resp2 = entrada.nextInt();
-            if(resp2 == 1){
+            if(resp2 == 2){
                 // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
@@ -850,9 +852,9 @@ public class App {
                 System.out.println(nome+", você errou");
                 pts2 = pts2 + 0;
             }
-            System.out.println("\nPergunta 3\n");
-            System.out.println("\n[1] ");
-            System.out.println("\n[2] ");           
+            System.out.println("\nO maior jejum sem derrotas para o rival é do:\n");
+            System.out.println("\n[1] Corinthians");
+            System.out.println("\n[2] Palmeiras");           
              resp2 = entrada.nextInt();
             if(resp2 == 1){
                 // valor da resposta ilustrativo, será alterado conforme a alternativa
@@ -868,11 +870,11 @@ public class App {
                     break;
                     case 5:
                     System.out.print("\nMajestoso\n");
-            System.out.println("\nPergunta 1\n");
-            System.out.println("\n[1] ");
-            System.out.println("\n[2] "); 
+            System.out.println("\nQuem possui mais títulos paulistas entre São Paulo e Corinthians\n");
+            System.out.println("\n[1] São Paulo");
+            System.out.println("\n[2] Corinthians"); 
             resp2 = entrada.nextInt();
-            if(resp2 == 1){
+            if(resp2 == 2){
                 // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
@@ -881,9 +883,9 @@ public class App {
                 System.out.println(nome+", você errou");
                 pts2 = pts2 + 0;
             }
-            System.out.println("\nPergunta 2\n");
-            System.out.println("\n[1] ");
-            System.out.println("\n[2] "); 
+            System.out.println("\nQuem possui a vantagem de vitórias no campeonato brasileiro?\n");
+            System.out.println("\n[1] Corinthians");
+            System.out.println("\n[2] São Paulo"); 
              resp2 = entrada.nextInt();
             if(resp2 == 1){
                 // valor da resposta ilustrativo, será alterado conforme a alternativa
@@ -894,9 +896,9 @@ public class App {
                 System.out.println(nome+", você errou");
                 pts2 = pts2 + 0;
             }
-            System.out.println("\nPergunta 3\n");
-            System.out.println("\n[1] ");
-            System.out.println("\n[2] "); 
+            System.out.println("\nO São Paulo possui a vantagem no confronto pela Libertadores\n");
+            System.out.println("\n[1] Falso");
+            System.out.println("\n[2] Verdadeiro"); 
              resp2 = entrada.nextInt();
             if(resp2 == 1){
                 // valor da resposta ilustrativo, será alterado conforme a alternativa
@@ -911,10 +913,10 @@ public class App {
             
                     break;
                     case 6:
-                    System.out.print("\nSansão\n");
-            System.out.println("\nPergunta 1\n");
-            System.out.println("\n[1] ");
-            System.out.println("\n[2] "); 
+                    System.out.print("\nSan-São\n");
+            System.out.println("\nA maior goleada da história do clássico foi:\n");
+            System.out.println("\n[1] São Paulo 9 x 1 Santos");
+            System.out.println("\n[2] Santos 6 x 2 São Paulo");
              resp2 = entrada.nextInt();
             if(resp2 == 1){
                 // valor da resposta ilustrativo, será alterado conforme a alternativa
@@ -925,9 +927,9 @@ public class App {
                 System.out.println(nome+", você errou");
                 pts2 = pts2 + 0;
             }
-            System.out.println("\nPergunta 2\n");
-            System.out.println("\n[1] ");
-            System.out.println("\n[2] "); 
+            System.out.println("\nQuem leva vantagem no clássico San-São?\n");
+            System.out.println("\n[1] São Paulo");
+            System.out.println("\n[2] Santos"); 
              resp2 = entrada.nextInt();
             if(resp2 == 1){
                 // valor da resposta ilustrativo, será alterado conforme a alternativa
@@ -938,11 +940,11 @@ public class App {
                 System.out.println(nome+", você errou");
                 pts2 = pts2 + 0;
             }
-            System.out.println("\nPergunta 3\n");
-            System.out.println("\n[1] ");
-            System.out.println("\n[2] ");  
+            System.out.println("\nNo século XXI o São Paulo não eliminou o Santos de nenhuma competição que disputaram nos moldes mata-mata\n");
+            System.out.println("\n[1] Falso");
+            System.out.println("\n[2] Verdadeiro");  
              resp2 = entrada.nextInt();
-            if(resp2 == 1){
+            if(resp2 == 2){
                 // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
