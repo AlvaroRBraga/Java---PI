@@ -84,7 +84,6 @@ public class App {
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 2){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("\nO Corinthians fez 100 anos em 2010");
                     pts1 = pts1 + 10;
@@ -103,7 +102,6 @@ public class App {
                 resp1 = entrada.nextInt();
                 
                 if(resp1 == 5){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("\nINTERNACIONAL 2X2 CORINTHIANS\n");
                     pts1 = pts1 + 10;
@@ -122,7 +120,6 @@ public class App {
                 resp1 = entrada.nextInt();
                 
                 if(resp1 == 1){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("\nEmerson Sheik foi o artilheiro com 5 gols");
                     pts1 = pts1 + 10;
@@ -141,7 +138,6 @@ public class App {
                 resp1 = entrada.nextInt();
                 
                 if(resp1 == 3){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("\no Corinthians foi fundado por operários");
                     pts1 = pts1 + 10;
@@ -160,7 +156,6 @@ public class App {
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 2){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("Sócrates se formou em medicina na USP, por isso o apelido");
                     pts1 = pts1 + 10;
@@ -179,7 +174,6 @@ public class App {
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("O título foi conquistado em 1914 de forma invicta");
                     pts1 = pts1 + 10;
@@ -197,7 +191,6 @@ public class App {
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("O 30º e último título paulista do Corinthians foi conquistado em 2019 em cima do São Paulo");
                     pts1 = pts1 + 10;
@@ -234,7 +227,6 @@ public class App {
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("\nPor conta do período de Guerra Mundial na Europa, o nome Palestra Itália teve que ser substituido");
                     pts1 = pts1 + 10;
@@ -253,7 +245,6 @@ public class App {
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 1){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("Deportivo Cali em 1999 em pleno Parque Antártica, Santos em 2020 em pleno Maracanã e Flamengo em 2021");
                     pts1 = pts1 + 10;
@@ -273,7 +264,6 @@ public class App {
                 resp1 = entrada.nextInt();
                 
                 if(resp1 == 3){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("\n O primeiro mascote foi o Periquito, e adoção do porco veio após campanha de marketing na década de 80 por João Roberto Gobbato");
                     pts1 = pts1 + 10;
@@ -292,7 +282,6 @@ public class App {
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 5){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("\nOswaldo com 10, Luxemburgo com 8 e Cambon com 7");
                     pts1 = pts1 + 10;
@@ -311,7 +300,6 @@ public class App {
                 resp1 = entrada.nextInt();
                 
                 if(resp1 == 1){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("\nA era Parmalat trouxe 11 títulos seguido da Crefisa (até o momento) com 10 títulos conquistados");
                     pts1 = pts1 + 10;
@@ -329,8 +317,7 @@ public class App {
                 System.out.println("\n[5] Fernando Prass\n");
                 resp1 = entrada.nextInt();
 
-                if(resp1 == 4){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
+                if(resp1 == 3){
                     System.out.println(nome+", você acertou");
                     System.out.println("\nDudu é o ídolo com a maior marca de gols, assistências, vitórias, partidas realizadas e títulos conquistados no século 21 e na lista de todos os tempos");
                     pts1 = pts1 + 10;
@@ -347,7 +334,7 @@ public class App {
                 System.out.println("\n[5] Breno Lopes e Deyverson\n");
                 resp1 = entrada.nextInt();
                 
-                if(resp1 == 4){
+                if(resp1 == 2){
                     // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("\nApós falha de Andreas Pereira, Deyverson rouba a bola e marca o gol já na prorrogação da final");
@@ -385,7 +372,6 @@ public class App {
                 resp1 = entrada.nextInt();
                 
                 if(resp1 == 3){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("\n22 títulos sendo eles 8 paulistas, 6 equivalentes ao brasileiro, 3 Rio-SP, 2 Libertadores, 1 Recopa e 2 Mundiais");
                     pts1 = pts1 + 10;
@@ -404,7 +390,6 @@ public class App {
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 3){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("\nFoi contra o já extinto Corinthians de Santo André, Santos venceu por 7 a 1");
                     pts1 = pts1 + 10;
@@ -441,7 +426,6 @@ public class App {
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 5){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("\nEm 1998 o meia Jorginho marcou o gol 10 mil da história do clube");
                     pts1 = pts1 + 10;
@@ -460,7 +444,6 @@ public class App {
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("\nFoi campeão consecutivo em 1962 e 1963, o terceiro vindo em 2011");
                     pts1 = pts1 + 10;
@@ -479,7 +462,6 @@ public class App {
                 resp1 = entrada.nextInt();
                 
                 if(resp1 == 4){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("\nA construção do Estádio Urbano Caldeira, a Vila Belmiro, foi concluída em 1916 e sua inauguração ocorreu em 12 de outubro do mesmo ano\n");
                     pts1 = pts1 + 10;
@@ -497,7 +479,6 @@ public class App {
                 resp1 = entrada.nextInt();
                 
                 if(resp1 == 4){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("\nNuma partida contra o Botafogo de Ribeirão Preto, em 1964, Pelé marcou oito gols pelos Santos");
                     pts1 = pts1 + 10;
@@ -535,7 +516,6 @@ public class App {
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("\n");
                     pts1 = pts1 + 10;
@@ -554,7 +534,6 @@ public class App {
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("\n");
                     pts1 = pts1 + 10;
@@ -573,7 +552,6 @@ public class App {
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("\n");
                     pts1 = pts1 + 10;
@@ -592,7 +570,6 @@ public class App {
                 resp1 = entrada.nextInt();
                 
                 if(resp1 == 4){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("\n");
                     pts1 = pts1 + 10;
@@ -611,7 +588,6 @@ public class App {
                 resp1 = entrada.nextInt();
                 
                 if(resp1 == 4){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("\n");
                     pts1 = pts1 + 10;
@@ -630,7 +606,6 @@ public class App {
                 resp1 = entrada.nextInt();
 
                 if(resp1 == 4){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
                     System.out.println(nome+", você acertou");
                     System.out.println("\n");
                     pts1 = pts1 + 10;
@@ -648,7 +623,7 @@ public class App {
                 resp1 = entrada.nextInt();
                 
                 if(resp1 == 4){
-                    // valor da resposta ilustrativo, será alterado conforme a alternativa
+
                     System.out.println(nome+", você acertou");
                     System.out.println("\n");
                     pts1 = pts1 + 10;
@@ -700,7 +675,6 @@ public class App {
             System.out.println("\n[2] Falso"); 
               resp2 = entrada.nextInt();
             if(resp2 == 1){
-                // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
             }
@@ -713,7 +687,6 @@ public class App {
             System.out.println("\n[2] Corinthians");
             resp2 = entrada.nextInt();
             if(resp2 == 2){
-                // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
             }
@@ -726,7 +699,6 @@ public class App {
             System.out.println("\n[2] Falso");
              resp2 = entrada.nextInt();
             if(resp2 == 2){
-                // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
             }
@@ -744,7 +716,6 @@ public class App {
             System.out.println("\n[2] Santos"); 
              resp2 = entrada.nextInt();
             if(resp2 == 1){
-                // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
             }
@@ -757,7 +728,6 @@ public class App {
             System.out.println("\n[2] Pelé - Santos");  
              resp2 = entrada.nextInt();
             if(resp2 == 2){
-                // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
             }
@@ -769,7 +739,6 @@ public class App {
             System.out.println("\n[1] Santos");
             System.out.println("\n[2] Palmeiras");           
             if(resp2 == 1){
-                // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
             }
@@ -787,7 +756,6 @@ public class App {
             System.out.println("\n[2] Falso"); 
              resp2 = entrada.nextInt();
             if(resp2 == 1){
-                // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
             }
@@ -800,7 +768,6 @@ public class App {
             System.out.println("\n[2] Falso "); 
              resp2 = entrada.nextInt();
             if(resp2 == 1){
-                // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
             }
@@ -813,7 +780,6 @@ public class App {
             System.out.println("\n[2] Palmeiras ");           
              resp2 = entrada.nextInt();
             if(resp2 == 2){
-                // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
             }
@@ -831,7 +797,6 @@ public class App {
             System.out.println("\n[2] Corinthians");   
              resp2 = entrada.nextInt();
             if(resp2 == 1){
-                // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
             }
@@ -844,7 +809,6 @@ public class App {
             System.out.println("\n[2] Palmeiras");   
              resp2 = entrada.nextInt();
             if(resp2 == 2){
-                // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
             }
@@ -857,7 +821,6 @@ public class App {
             System.out.println("\n[2] Palmeiras");           
              resp2 = entrada.nextInt();
             if(resp2 == 1){
-                // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
             }
@@ -875,7 +838,6 @@ public class App {
             System.out.println("\n[2] Corinthians"); 
             resp2 = entrada.nextInt();
             if(resp2 == 2){
-                // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
             }
@@ -888,7 +850,6 @@ public class App {
             System.out.println("\n[2] São Paulo"); 
              resp2 = entrada.nextInt();
             if(resp2 == 1){
-                // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
             }
@@ -901,7 +862,6 @@ public class App {
             System.out.println("\n[2] Verdadeiro"); 
              resp2 = entrada.nextInt();
             if(resp2 == 1){
-                // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
             }
@@ -919,7 +879,6 @@ public class App {
             System.out.println("\n[2] Santos 6 x 2 São Paulo");
              resp2 = entrada.nextInt();
             if(resp2 == 1){
-                // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
             }
@@ -932,7 +891,6 @@ public class App {
             System.out.println("\n[2] Santos"); 
              resp2 = entrada.nextInt();
             if(resp2 == 1){
-                // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
             }
@@ -945,7 +903,6 @@ public class App {
             System.out.println("\n[2] Verdadeiro");  
              resp2 = entrada.nextInt();
             if(resp2 == 2){
-                // valor da resposta ilustrativo, será alterado conforme a alternativa
                 System.out.println(nome+", você acertou");
                 pts2 = pts2 + 10;
             }
@@ -968,13 +925,13 @@ public class App {
     case 3:
     System.out.print("\nOpção: Desenvolvedores/Créditos\n");
     System.out.print("\nEsse jogo foi desenvolvido para fins avaliativos da disciplina Projeto Integrador\n");
-    System.out.print("\nÁlvaro Rocha Braga - O matemático");
-    System.out.print("\nFabrício Simão - O turirsta");
-    System.out.print("\nGustavo Enrico - O Mano");
-    System.out.print("\nJoão Vitor Veras - O Tigas");
+    System.out.print("\nÁlvaro Rocha Braga");
+    System.out.print("\nFabrício Simão");
+    System.out.print("\nGustavo Enrico");
+    System.out.print("\nJoão Vitor Veras");
     System.out.print("\nMatheus Araujo - O Candelabro");
-    System.out.print("\nPaulo Henrique Tenório - Prefeito");
-    System.out.print("\nRoberto Luiz Maciel Miranda - O Betin");
+    System.out.print("\nPaulo Henrique Tenório");
+    System.out.print("\nRoberto Luiz Maciel Miranda");
     break;
     
     case 4:
