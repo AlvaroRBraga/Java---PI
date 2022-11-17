@@ -507,17 +507,17 @@ public class App {
 
                 case 4:
                 System.out.println("\nVocê escolheu o São Paulo\n");
-                System.out.println("\nPergunta 1\n");
-                System.out.println("\n[1] ");
-                System.out.println("\n[2] ");
-                System.out.println("\n[3] ");
-                System.out.println("\n[4] ");
-                System.out.println("\n[5] \n");
+                System.out.println("\nO São Paulo foi campeão seguido da Libertadores em 92 e 93, naquela ocasião quem era o técnico?\n");
+                System.out.println("\n[1] Rogério Ceni");
+                System.out.println("\n[2] Tele Santana");
+                System.out.println("\n[3] Leão");
+                System.out.println("\n[4] Muricy Ramalho");
+                System.out.println("\n[5] Carlos Alberto Silva\n");
                 resp1 = entrada.nextInt();
 
-                if(resp1 == 4){
+                if(resp1 == 2){
                     System.out.println(nome+", você acertou");
-                    System.out.println("\n");
+                    System.out.println("\nTele ainda foi considerado o treinador Sul-Americano de 1992");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -525,17 +525,17 @@ public class App {
                     pts1 = pts1 + 0;
                 }
                 
-                System.out.println("\nPergunta 2\n");
-                System.out.println("\n[1] ");
-                System.out.println("\n[2] ");
-                System.out.println("\n[3] ");
-                System.out.println("\n[4] ");
-                System.out.println("\n[5] \n");
+                System.out.println("\nQuem foi o jogador que mais atuou pelo São Paulo?\n");
+                System.out.println("\n[1] Raí");
+                System.out.println("\n[2] Rogério Ceni");
+                System.out.println("\n[3] Miranda");
+                System.out.println("\n[4] Aloísio Chulapa");
+                System.out.println("\n[5] Richarlyson\n");
                 resp1 = entrada.nextInt();
 
-                if(resp1 == 4){
+                if(resp1 == 2){
                     System.out.println(nome+", você acertou");
-                    System.out.println("\n");
+                    System.out.println("\nRogério Ceni atuou em 1237 partidas enttre 1990 e 2015");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -543,17 +543,17 @@ public class App {
                     pts1 = pts1 + 0;
                 }
                 
-                System.out.println("\nPergunta 3\n");
-                System.out.println("\n[1] ");
-                System.out.println("\n[2] ");
-                System.out.println("\n[3] ");
-                System.out.println("\n[4] ");
-                System.out.println("\n[5] \n");
+                System.out.println("\nO título Mundial de 2005 foi conquistado em cima de qual Clube e quem fez o gol do título?\n");
+                System.out.println("\n[1] Liverpool - Rogério Ceni");
+                System.out.println("\n[2] Liverpool - Amoroso");
+                System.out.println("\n[3] Barcelona");
+                System.out.println("\n[4] Milan - Josué");
+                System.out.println("\n[5] Liverpool - Mineiro\n");
                 resp1 = entrada.nextInt();
 
-                if(resp1 == 4){
+                if(resp1 == 5){
                     System.out.println(nome+", você acertou");
-                    System.out.println("\n");
+                    System.out.println("\n O Liverpool sofreu o gol do até então volante Mineiro");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -561,17 +561,17 @@ public class App {
                     pts1 = pts1 + 0;
                 }
                 
-                System.out.println("\nPergunta 4\n");
-                System.out.println("\n[1] ");
-                System.out.println("\n[2] ");
-                System.out.println("\n[3] ");
-                System.out.println("\n[4] ");
-                System.out.println("\n[5] \n");
+                System.out.println("\nO título de caráter nacional ou internacional mais recente que o São Paulo conquistou foi:\n");
+                System.out.println("\n[1] Copa Sul Americana 2012");
+                System.out.println("\n[2] Campeonato Brasileiro 2008");
+                System.out.println("\n[3] Copa Sul Americana 2013");
+                System.out.println("\n[4] Recopa 2013");
+                System.out.println("\n[5] Recopa 2012\n");
                 resp1 = entrada.nextInt();
                 
-                if(resp1 == 4){
+                if(resp1 == 1){
                     System.out.println(nome+", você acertou");
-                    System.out.println("\n");
+                    System.out.println("\nO título da Copa Sul Americana de 2012 veio em cima do Tigre da Argentina");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -579,17 +579,17 @@ public class App {
                     pts1 = pts1 + 0;
                 }
                 
-                System.out.println("\nPergunta 5\n");
-                System.out.println("\n[1] ");
-                System.out.println("\n[2] ");
-                System.out.println("\n[3] ");
-                System.out.println("\n[4] ");
-                System.out.println("\n[5] \n");
+                System.out.println("\nO São Paulo foi fundado em 1930 pela união de duas instituições espostivas. Quais?\n");
+                System.out.println("\n[1] Clube Atlético Paulistano e Associação Atlética das Palmeiras");
+                System.out.println("\n[2] Clube Athetico Audax e Clube Atlético Paulistano");
+                System.out.println("\n[3] Clube Atlético Albion e Esporte Clube Americano");
+                System.out.println("\n[4] Clube Athletico Audax e Associação Atlética das Palmeiras");
+                System.out.println("\n[5] Club Sportivo América e Esporte Clube Americano\n");
                 resp1 = entrada.nextInt();
                 
-                if(resp1 == 4){
+                if(resp1 == 1){
                     System.out.println(nome+", você acertou");
-                    System.out.println("\n");
+                    System.out.println("\nAs cores vermelhas vieram dos sócios do Clube Atlético Paulistano e o preto e branco da Associação Atlética das Palmeiras");
                     pts1 = pts1 + 10;
                 }
                 else{
@@ -597,32 +597,32 @@ public class App {
                     pts1 = pts1 + 0;
                 }
                 
-                System.out.println("\nPergunta 6\n");
-                System.out.println("\n[1] ");
-                System.out.println("\n[2] ");
-                System.out.println("\n[3] ");
-                System.out.println("\n[4] ");
-                System.out.println("\n[5] \n");
+                System.out.println("\nQual título acabou com o recente jejum de quase 9 anos?\n");
+                System.out.println("\n[1] Copa do Brasil 2020");
+                System.out.println("\n[2] Campeonato Paulista 2020");
+                System.out.println("\n[3] Flórida Cup");
+                System.out.println("\n[4] Campeonato Brasileiro de 2020/2021");
+                System.out.println("\n[5] Campeonato Paulista 2021\n");
                 resp1 = entrada.nextInt();
 
-                if(resp1 == 4){
+                if(resp1 == 5){
                     System.out.println(nome+", você acertou");
-                    System.out.println("\n");
+                    System.out.println("\nO título do Campeonato Paulista veio no segundo jogo contra o Palmeiras, por uma vitória de 2 x 0");
                     pts1 = pts1 + 10;
                 }
                 else{
                     System.out.println(nome+", você errou");
                     pts1 = pts1 + 0;
                 }
-                System.out.println("\nPergunta 7\n");
-                System.out.println("\n[1] ");
-                System.out.println("\n[2] ");
-                System.out.println("\n[3] ");
-                System.out.println("\n[4] ");
-                System.out.println("\n[5] \n");
+                System.out.println("\nMuricy Ramalho foi tricampeão do Campeonato Brasileiro na era de pontos corridos nos anos de:\n");
+                System.out.println("\n[1] 2005, 2006 e 2007");
+                System.out.println("\n[2] 2007, 2008 e 2009");
+                System.out.println("\n[3] 2006, 2007 e 2008");
+                System.out.println("\n[4] 2004, 2005 e 2006");
+                System.out.println("\n[5] 2000, 2001 e 2002\n");
                 resp1 = entrada.nextInt();
                 
-                if(resp1 == 4){
+                if(resp1 == 3){
 
                     System.out.println(nome+", você acertou");
                     System.out.println("\n");
